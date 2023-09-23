@@ -2,11 +2,12 @@ import Link from "next/link";
 import React from "react";
 import Avatar from "@mui/material/Avatar";
 import Image from "next/image";
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
   return (
     <main className="flex justify-center text-sm font-thin w-full">
-      <section className="flex px-4 justify-between border-[1px] border-[#111111] rounded-lg text-white w-[300px] sm:w-[50%] h-[45px] ease-in-out duration-400 ">
+      <section className="flex px-4 justify-between border-[1px] border-[#111111] rounded-lg text-white w-[300px] sm:w-[50%] h-[45px] ease-in-out duration-300 ">
 
       <div className="items-center flex">
       <Avatar
@@ -20,12 +21,15 @@ function Header() {
 
 
     <div className="flex items-center md:hidden">
-    <Image
+
+      <MenuIcon className="w-[35px] h-[35px]"
+      />
+    {/* <Image
               src="/menuIcon.png"
               width={30}
               height={30}
               alt="Menu Icon"
-            />
+            /> */}
     </div>
 
 
