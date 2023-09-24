@@ -2,33 +2,16 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='flex items-center justify-center'>
-        <div className="text-white h-[100px]">hello</div>
+    <main className='text-center md:text-left mx-[60px] md:mx-[180px] 2xl:mx-[340px]'>
 
-        <div className="text-white h-[100px]">hello</div>
+        <p className='h-bold text-[24px] 2xl:text-[30px] pl-0 md:pl-[8px] 2xl:pl-[12px]'>I'M KAMEL SINGH</p>
 
-        <div className="text-white h-[100px]">hello</div>
+        <h1 className='text-main h-bold text-[70px] sm:text-[96px] lg:text-[144px] 2xl:text-[180px] leading-[.9]'>DESIGNING & <br/>DEVELOPING</h1>
 
-        <div className="text-white h-[100px]">hello</div>
-        <div className="text-white h-[100px]">hello</div>
+        <p className=''>WEBSITES, APPLICATIONS, AND MORE</p>
 
-        <div className="text-white h-[100px]">hello</div>
+        <div className=" hidden z-[-2] absolute w-[200px] h-[200px] top-[30%] left-[60%] bg-white"></div>
 
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
-
-        <div className="text-white h-[100px]">hello</div>
     </main>
   )
 }

@@ -26,7 +26,7 @@ function MenuButton() {
      animate='visible'
     >
 
-    <div className={isOpen ? 'absolute left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-gray-800/20 ease-in-out duration-500 rounded-tr rounded-br backdrop-blur-md' : 'top-0 left-[-150px]'}>
+    <div className={isOpen ? 'absolute left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-black/30 ease-in-out duration-500 rounded-tr rounded-br backdrop-blur-md' : 'top-0 left-[-150px]'}>
          <section className={isOpen ? 'p-10' : 'hidden'}>
             
             <div className=" text-right">
@@ -40,9 +40,9 @@ function MenuButton() {
             </div>
 
             <ul className="flex flex-col text-lg gap-4 ">
-              <Link className='p-2 hover:bg-gray-600 rounded-md' href={"/"}>Home</Link>
-              <Link className='p-2 hover:bg-gray-600 rounded-md' href={"/about"}>About</Link>
-              <Link className='p-2 hover:bg-gray-600 rounded-md' href={"/work"}>Projects</Link>
+              <Link className='p-2 hover:bg-gray-600 rounded-md border-2' href={"/"}>Home</Link>
+              <Link className='p-2 hover:bg-gray-600 rounded-md border-2' href={"/about"}>About</Link>
+              <Link className='p-2 hover:bg-gray-600 rounded-md border-2' href={"/work"}>Projects</Link>
             </ul>
    
             
