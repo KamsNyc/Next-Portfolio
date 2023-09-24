@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className='mt-10'>
+        <main className='mt-[35px]'>
           <Header />
         </main>
         {children}
