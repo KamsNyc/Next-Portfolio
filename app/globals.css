@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.rounded-tr {
+  border-top-right-radius: 1rem; 
+}
+
+.rounded-bl {
+  border-bottom-right-radius: 1rem; 
+}
+
 body {
   @apply bg-black;
 }

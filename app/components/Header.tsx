@@ -3,6 +3,7 @@ import React from "react";
 import Avatar from "@mui/material/Avatar";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
+import MenuButton from "./MenuButton";
 
 function Header() {
   return (
@@ -50,9 +51,14 @@ function Header() {
 
         {/* MENU ICON */}
         <div className="flex items-center md:hidden">
-          <MenuIcon className="w-[35px] h-[35px]" />
-        </div>
+        <MenuButton />
+       </div> 
+              
       </section>
+
+
+      
+  
     </main>
   );
 }
