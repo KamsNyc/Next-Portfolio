@@ -2,21 +2,18 @@ import Link from "next/link";
 import React from "react";
 import Avatar from "@mui/material/Avatar";
 import Image from "next/image";
-import MenuIcon from "@mui/icons-material/Menu";
 import MenuButton from "./MenuButton";
+import MenuAvatar from "./MenuAvatar";
+
 
 function Header() {
   return (
     <main className="flex justify-center text-sm font-thin w-full">
       <section className="flex px-4 justify-between border-[1px] border-[#111111] rounded-lg text-white w-[300px] sm:w-[50%] h-[45px] ease-in-out duration-300  ">
-        {/* AVATAR */}
+        {/* AVATAR turned to client */}
         <div className="items-center flex">
-          <Avatar
-            className="border-2 border-[#111111]"
-            alt="Kamel Singh"
-            src="/avatar.png"
-            sx={{ width: 35, height: 35 }}
-          />
+          <MenuAvatar />
+          {/* <MenuAvatar /> */}
         </div>
 
         {/* MENU LINKS */}
@@ -25,7 +22,7 @@ function Header() {
             <ul className="flex gap-8 pr-8">
               <Link href={"/"}>Home</Link>
               <Link href={"/about"}>About</Link>
-              <Link href={"/project"}>Projects</Link>
+              <Link href={"/work"}>Projects</Link>
             </ul>
           </div>
           {/* 

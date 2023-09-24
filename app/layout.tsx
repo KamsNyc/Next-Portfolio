@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Header from './components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
-const akrobat = Inter({ subsets: ['latin', 'latin-ext'] })
 
 export const metadata: Metadata = {
   title: 'Kamel Singh',
@@ -18,11 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className='mt-[35px]'>
+      <body  className={inter.className}>
+        <main className='mt-10'>
           <Header />
-        </main>
+          </main>
+          <section className="mt-10">
         {children}
+        </section>
       </body>
     </html>
   )
