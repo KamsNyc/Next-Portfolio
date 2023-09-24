@@ -21,7 +21,7 @@ export default function RootLayout({
         <main className='mt-10'>
           <Header />
           </main>
-          <section className=" mt-[80px] 2xl:mt-[100px]">
+          <section className=" mt-[80px] lg:mt-[100px]">
         {children}
         </section>
       </body>
