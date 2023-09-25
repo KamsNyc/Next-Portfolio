@@ -1,17 +1,28 @@
 import Image from 'next/image'
+import Hero from './components/Hero'
 
 export default function Home() {
   return (
-    <main className='block text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[340px]'>
+    <main className=''>
 
-        <p className=' mb-0 xl:mb-[2px] 2xl:mb-[-10px] h-extralight text-[24px] 2xl:text-[30px] pl-0 md:pl-[6px] 2xl:pl-[12px]'>I'M KAMEL SINGH</p>
+         {/* HERO SECTION */}
+        <section className='mt-40 relative text-center mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]' >
+        <Hero />
 
-        <h1 className='mb-[5px] text-main h-bold text-[60px] sm:text-[86px] md:text-[96px] lg:text-[124px] xl:text-[160px] 2xl:text-[180px] leading-[.9]'>DESIGNING & <br/>DEVELOPING</h1>
+       
 
-        <p className='lg:pr-[20%] text-[18px] md:text-[26px] lg:text-[42px] pl-0 md:pl-[6px] 2xl:pl-[12px] h-light'>WEBSITES, APPLICATIONS, AND MORE</p>
+        {/* GLOBE IMAGE */}
+        <div className="absolute top-[-20%] right-[-40%] 2xl:right-[-20%] z-[-1]">
 
-        <div className=" hidden z-[-2] absolute w-[200px] h-[200px] top-[30%] left-[60%] bg-white"></div>
+          <img className='hidden md:flex opacity-40' src={'https://cdn.dribbble.com/users/2433051/screenshots/4872252/spinning-globe-white.gif'} alt='test img' />
+        </div>
 
+        </section>  
+
+        {/* ABOUT SECTION */}
+
+       
+        
     </main>
   )
 }

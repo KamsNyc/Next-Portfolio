@@ -26,7 +26,7 @@ function MenuButton() {
      animate='visible'
     >
 
-    <div className={isOpen ? 'absolute left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-black/30 ease-in-out duration-500 rounded-tr rounded-br backdrop-blur-md' : 'top-0 left-[-150px]'}>
+    <div className={isOpen ? 'absolute z-30 left-0 top-[-2.5rem] w-[75%] sm:w-[60%] md:w-[45%] ease-in-out duration-500 rounded-tr rounded-br backdrop-blur-md  bg-black/30 h-screen' : 'top-0 left-[-150px]'}>
          <section className={isOpen ? 'p-10' : 'hidden'}>
             
             <div className=" text-right">

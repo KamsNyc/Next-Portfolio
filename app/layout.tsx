@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body  className={inter.className}>
-        <main className='mt-10'>
+        <main className='sticky top-10 z-50'>
           <Header />
           </main>
-          <section className=" mt-[80px] lg:mt-[100px]">
+          <section className=" mt-[60px] lg:mt-[100px]">
         {children}
         </section>
       </body>

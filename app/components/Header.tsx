@@ -21,7 +21,7 @@ function Header() {
           <div className="flex items-center">
             <ul className="flex gap-8 pr-8">
               <Link href={"/"}>Home</Link>
-              <Link href={"/about"}>About</Link>
+              <Link href={"#about"}>About</Link>
               <Link href={"/work"}>Projects</Link>
             </ul>
           </div>
