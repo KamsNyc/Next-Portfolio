@@ -21,7 +21,7 @@ export default function RootLayout({
         <main className='sticky top-10 z-50'>
           <Header />
           </main>
-          <section className=" mt-[60px] lg:mt-[100px]">
+          <section className=" mt-[6rem] lg:mt-[9rem]">
         {children}
         </section>
       </body>
