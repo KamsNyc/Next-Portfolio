@@ -14,7 +14,10 @@ export default function Home() {
         {/* GLOBE IMAGE */}
         <div className="absolute top-[-20%] right-[-40%] 2xl:right-[-20%] z-[-1]">
 
-          <img className='hidden md:flex opacity-40' src={'https://cdn.dribbble.com/users/2433051/screenshots/4872252/spinning-globe-white.gif'} alt='test img' />
+          {/* <img className='hidden md:flex opacity-40' src={'https://cdn.dribbble.com/users/2433051/screenshots/4872252/spinning-globe-white.gif'} alt='test img' /> */}
+
+          <Image className='hidden md:flex opacity-40' src='/Globe.gif' width={800} height={600} alt='test' />
+
         </div>
 
         </section>  
