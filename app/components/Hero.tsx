@@ -8,9 +8,9 @@ function Hero() {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.5, // Delay before the animation starts
-        duration: 0.2, // Faster duration of the animation
-        ease: "easeInOut", // Easing function
+        delay: 0.5, 
+        duration: 0.2, 
+        ease: "easeInOut", 
       },
     },
   };
@@ -21,9 +21,9 @@ function Hero() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 1, // Delay before the animation starts
-        duration: 0.2, // Faster duration of the animation
-        ease: "easeOut", // Easing function
+        delay: 1, 
+        duration: 0.2, 
+        ease: "easeOut", 
       },
     },
   };

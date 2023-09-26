@@ -10,9 +10,9 @@ function GlobeImg() {
       opacity: 1,
       scale: 1,
       transition: {
-        delay: 0.5, // Delay before the animation starts
-        duration: 1, // Duration of the animation
-        ease: "easeInOut", // Easing function
+        delay: 1.4, 
+        duration: 1, 
+        ease: "easeInOut", 
       },
     },
   };
