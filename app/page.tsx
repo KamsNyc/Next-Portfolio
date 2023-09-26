@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Hero from './components/Hero';
+import GlobeImg from './components/GlobeImg';
 
 export default function Home() {
   return (
@@ -10,16 +11,17 @@ export default function Home() {
 
         {/* GLOBE IMAGE */}
         <div className="absolute top-[-15%] right-[-40%] 2xl:right-[-20%] z-[-1]">
-          <Image className="hidden md:flex opacity-40" src="/Globe.gif" width={800} height={600} alt="test" />
+          {/* <Image className="hidden md:flex opacity-40" src="/Globe.gif" width={800} height={600} alt="test" /> */}
+          <GlobeImg />
         </div>
       </section>
 
       {/* DIVIDER */}
-      <section className="w-full h-[1px] bg-[#111111] mt-10"></section>
+      <section  id="about" className="w-full h-[1px] bg-[#111111] mt-10"></section>
 
      
       {/* ABOUT SECTION */}
-      <section id="about" className="w-full h-screen flex justify-center items-center">
+      <section className="mt-40 w-full h-screen flex justify-center items-center">
         <div className="container mx-auto h-full p-2 flex-col lg:grid grid-cols-2 gap-4">
     
           <div className="col-span-1 flex-col ">
@@ -47,7 +49,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-20 col-span-1 flex justify-center">
+          <div className="col-span-1 flex justify-center">
             <Image src="/your-image.jpg" width={600} height={600} alt="Your Picture" />
           </div>
 
