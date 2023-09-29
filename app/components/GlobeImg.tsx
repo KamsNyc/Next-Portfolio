@@ -10,7 +10,7 @@ function GlobeImg() {
       opacity: 1,
       scale: 1,
       transition: {
-        delay: 1.4, 
+        delay: .02, 
         duration: 1, 
         ease: "easeInOut", 
       },

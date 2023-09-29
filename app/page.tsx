@@ -1,70 +1,79 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
-import GlobeImg from "./components/GlobeImg";
+import React from 'react'
+import GlobeImg from './components/GlobeImg'
+import Hero from './components/Hero'
 
-export default function Home() {
+const home = () => {
   return (
-    <main className="">
-      {/* HERO SECTION */}
-      <section className="h-[300px] lg:h-[600px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
+    <main>
+        {/* HERO SECTION */}
+        <section className="h-[300px] lg:h-[600px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
         <Hero />
 
         {/* GLOBE IMAGE */}
-        <div className="absolute top-[-15%] right-[-40%] 2xl:right-[-20%] z-[-1]">
+        <section className="absolute top-[-15%] right-[-40%] 2xl:right-[-20%] z-[-1]">
           <GlobeImg />
-        </div>
+        </section>
       </section>
 
       {/* DIVIDER */}
       <section
         id="about"
-        className="w-full h-[1px] bg-[#111111] mt-10"
+        className="w-full h-[1px] bg-[#111111] mt-5"
       ></section>
 
+
       {/* ABOUT SECTION */}
-      <section className=" mt-10 sm:mt-20 md:mt-40 w-full h-screen flex justify-center items-center">
-        <div className="container mx-auto h-full p-2 flex-col lg:grid grid-cols-2 gap-4">
-          <div className="col-span-1 flex-col ">
-            <h1 className="text-center">About Me</h1>
-            <p className="px-4 py-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae ipsum consequuntur dolor odit, officiis mollitia nulla
-              sunt commodi, vitae illo eos cupiditate assumenda amet provident
-              natus ea explicabo fuga facilis?Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Id voluptas ullam culpa itaque odio
-              quae perspiciatis eius incidunt tempora rerum ex laudantium, et,
-              eligendi vero quibusdam obcaecati magnam nihil quos?
-            </p>
 
-            <div
-              id="skills"
-              className="flex justify-between items-center gap-10 w-full h-[50px] bg-red-50 rounded-2xl px-8 mt-10 lg:mt-20 "
-            >
-              <div className="text-black ">Icon</div>
+      <section className='w-full h-screen xl:flex'>
 
-              <div className="text-black ">Icon</div>
+        {/* LEFT SECTION */}
+        
+        <section className=" xl:flex-[50%] flex items-center justify-center">
+          
+          <div id="wrapper" className="w-[70%] flex-col items-center justify-center">
 
-              <div className="text-black ">Icon</div>
+          <div id="tags" className="flex items-center justify-around w-full p-10 mb-8 gap-8">
 
-              <div className="text-black ">Icon</div>
-
-              <div className="text-black ">Icon</div>
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <h3 className='p-[2px]'>name</h3>
             </div>
+
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <h3 className='p-[2px]'>name</h3>
+            </div>
+
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <h3 className='p-[2px]'>name</h3>
+            </div>
+
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <h3 className='p-[2px]'>name</h3>
+            </div>
+            
           </div>
 
-          <div className="col-span-1 flex justify-center">
-            <Image
-              src="/your-image.jpg"
-              width={600}
-              height={600}
-              alt="Your Picture"
-            />
+          <h1 className='text-4xl text-center mb-4'>TITLE</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, itaque! Quasi corporis magnam amet minima, error architecto eligendi laborum, eveniet ipsum atque ipsa nihil provident veniam a iusto? Doloribus, maxime.</p>
+
+          
           </div>
-        </div>
+
+
+        </section>
+        
+          {/* RIGHT SECTION */}
+        <section className=" xl:flex-[50%] flex items-center justify-center p-10 px-40">
+
+         
+              <img className='w-full h-[400px] object-fill rounded-xl cursor-pointer hover:scale-105 ease-in duration-300' src="https://source.unsplash.com/800x400/?abstract" alt="project" />
+    
+        </section>
+       
+
       </section>
-
-      {/* Project Section */}
-      {/* Add your project section here */}
+      
     </main>
-  );
+  )
 }
+
+export default home
