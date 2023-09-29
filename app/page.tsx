@@ -32,21 +32,21 @@ const home = () => {
           
           <div id="wrapper" className="w-[70%] flex-col items-center justify-center">
 
-          <div id="tags" className="flex items-center justify-around w-full p-10 mb-8 gap-8">
+          <div id="tags" className="flex items-center justify-around w-full p-10 mb-8 gap-8 ">
 
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
             <h3 className='p-[2px]'>name</h3>
             </div>
 
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
             <h3 className='p-[2px]'>name</h3>
             </div>
 
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
             <h3 className='p-[2px]'>name</h3>
             </div>
 
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between">
+            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
             <h3 className='p-[2px]'>name</h3>
             </div>
             
@@ -66,6 +66,8 @@ const home = () => {
 
          
               <img className='w-full h-[400px] object-fill rounded-xl cursor-pointer hover:scale-105 ease-in duration-300' src="https://source.unsplash.com/800x400/?abstract" alt="project" />
+
+              
     
         </section>
        
