@@ -9,7 +9,7 @@ const home = () => {
   return (
     <main className="w-full min-h-full">
       {/* HERO SECTION */}
-      <section className="h-[300px] lg:h-[500px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
+      <section className="h-[300px] lg:h-[600px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
         <Hero />
 
         {/* GLOBE IMAGE */}
@@ -19,16 +19,16 @@ const home = () => {
       </section>
 
       {/* DIVIDER */}
-      <section id="about" className="w-full h-[1px] bg-[#111111] mt-5 md:mt-40 lg:mt-20 " />
+      <section id="about" className="w-full h-[1px] bg-[#111111] mt-2 md:mt-20 lg:mt-[-1rem] " />
 
 
       {/* #ABOUT SECTION HEADER */}
 
       <section id="infobox" className="relative my-2 md:my-2 text-center md:text-left lg:text-right mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
-        <h3 className="text-5xl md:text-6xl lg:text-8xl font-bold py-2 pb-[1px] h-regular tracking-tight">ABOUT ME</h3>
+        <h3 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold py-2 pb-[1px] h-regular tracking-tight">ABOUT ME</h3>
         <p className=" text-red-500 p-regular text-xl md:text-2xl lg:text-3xl">get to know me</p>
 
-        {/* ##BLUR CIRCLE */}
+        {/* BLUR CIRCLE */}
           <BlurCircle />
 
       </section>
