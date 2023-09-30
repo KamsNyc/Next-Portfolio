@@ -19,19 +19,22 @@ const home = () => {
       </section>
 
       {/* DIVIDER */}
-      <section id="about" className="w-full h-[1px] bg-[#111111] mt-5 " />
+      <section id="about" className="w-full h-[1px] bg-[#111111] mt-5 md:mt-40 lg:mt-20 " />
 
 
       {/* #ABOUT SECTION HEADER */}
 
-      <section id="infobox" className="relative mt-4 md:mt-20 text-center md:text-left lg:text-right mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
+      <section id="infobox" className="relative my-2 md:my-2 text-center md:text-left lg:text-right mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
         <h3 className="text-5xl md:text-6xl lg:text-8xl font-bold py-2 pb-[1px] h-regular tracking-tight">ABOUT ME</h3>
-        <p className=" text-red-500 p-regular text-xl md:text-2xl lg:text-3xl">// get to know me</p>
+        <p className=" text-red-500 p-regular text-xl md:text-2xl lg:text-3xl">get to know me</p>
 
         {/* ##BLUR CIRCLE */}
           <BlurCircle />
 
       </section>
+
+       {/* DIVIDER */}
+       <section id="about" className="w-full h-[1px] bg-[#111111] mt-5 " />
 
       {/* ABOUT SECTION */}
 
