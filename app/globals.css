@@ -89,6 +89,14 @@
   color: #F00E0E;
 }
 
+.button-hover:hover {
+    transform: scale(110px);
+    transition: ease-in .4s;
+    background-color: rgb(34 197 94);
+  
+}
+
+
 @layer base{
 
 
@@ -114,9 +122,11 @@ body {
     @apply cursor-pointer;
   }
 
+
   button {
-    @apply shadow-xl shadow-gray-300 rounded-xl uppercase
+    @apply bg-red-500 rounded-lg py-[.4rem] px-2
   }
+
 
 
 
