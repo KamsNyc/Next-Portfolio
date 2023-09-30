@@ -1,9 +1,9 @@
 import React from "react";
-import GlobeImg from "./components/GlobeImg";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import BlurCircle from "./components/BlurCircle";
+import GlobeImg from "./(components)/GlobeImg";
+import Hero from "./(components)/Hero";
+import Projects from "./(components)/Projects";
+import About from "./(components)/About";
+import BlurCircle from "./(components)/BlurCircle";
 
 const home = () => {
   return (
