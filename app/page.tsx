@@ -1,12 +1,15 @@
-import React from 'react'
-import GlobeImg from './components/GlobeImg'
-import Hero from './components/Hero'
+import React from "react";
+import GlobeImg from "./components/GlobeImg";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import BlurCircle from "./components/BlurCircle";
 
 const home = () => {
   return (
-    <main>
-        {/* HERO SECTION */}
-        <section className="h-[300px] lg:h-[600px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
+    <main className="w-full min-h-full">
+      {/* HERO SECTION */}
+      <section className="h-[300px] lg:h-[500px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
         <Hero />
 
         {/* GLOBE IMAGE */}
@@ -16,66 +19,35 @@ const home = () => {
       </section>
 
       {/* DIVIDER */}
-      <section
-        id="about"
-        className="w-full h-[1px] bg-[#111111] mt-5"
-      ></section>
+      <section id="about" className="w-full h-[1px] bg-[#111111] mt-5 " />
 
+
+      {/* #ABOUT SECTION HEADER */}
+
+      <section id="infobox" className="relative mt-4 md:mt-20 text-center md:text-left lg:text-right mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
+        <h3 className="text-5xl md:text-6xl lg:text-8xl font-bold py-2 pb-[1px] h-regular tracking-tight">ABOUT ME</h3>
+        <p className=" text-red-500 p-regular text-xl md:text-2xl lg:text-3xl">// get to know me</p>
+
+        {/* ##BLUR CIRCLE */}
+          <BlurCircle />
+
+      </section>
 
       {/* ABOUT SECTION */}
 
-      <section className='w-full h-screen xl:flex'>
+      <section className="h-[300px] lg:h-[600px] relative text-center md:text-left mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px]">
 
-        {/* LEFT SECTION */}
-        
-        <section className=" xl:flex-[50%] flex items-center justify-center">
-          
-          <div id="wrapper" className="w-[70%] flex-col items-center justify-center">
-
-          <div id="tags" className="flex items-center justify-around w-full p-10 mb-8 gap-8 ">
-
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
-            <h3 className='p-[2px]'>name</h3>
-            </div>
-
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
-            <h3 className='p-[2px]'>name</h3>
-            </div>
-
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
-            <h3 className='p-[2px]'>name</h3>
-            </div>
-
-            <div className="flex rounded-2xl bg-fuchsia-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
-            <h3 className='p-[2px]'>name</h3>
-            </div>
-            
-          </div>
-
-          <h1 className='text-4xl text-center mb-4'>TITLE</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, itaque! Quasi corporis magnam amet minima, error architecto eligendi laborum, eveniet ipsum atque ipsa nihil provident veniam a iusto? Doloribus, maxime.</p>
-
-          
-          </div>
-
-
-        </section>
-        
-          {/* RIGHT SECTION */}
-        <section className=" xl:flex-[50%] flex items-center justify-center p-10 px-40">
-
-         
-              <img className='w-full h-[400px] object-fill rounded-xl cursor-pointer hover:scale-105 ease-in duration-300' src="https://source.unsplash.com/800x400/?abstract" alt="project" />
-
-              
-    
-        </section>
-       
+      <About />
 
       </section>
-      
-    </main>
-  )
-}
 
-export default home
+      {/* PROJECTS SECTION */}
+
+      <section>
+        <Projects />
+      </section>
+    </main>
+  );
+};
+
+export default home;
