@@ -1,16 +1,18 @@
+import Image from "next/image";
 import React from "react";
 
 const Projects = () => {
   return (
-    <div className="w-full h-[600px] xl:flex">
-      <section className=" xl:flex-[50%] flex items-center justify-center">
+    <div className="w-full h-[600px] xl:flex ">
+      <section className=" xl:flex-[50%] flex items-center justify-center  ">
         <div
           id="wrapper"
-          className="w-[70%] flex-col items-center justify-center"
+          className="w-[70%] flex-col items-center justify-center "
         >
           <div
             id="tags"
-            className="flex items-center justify-around w-full p-6 mb-8 gap-8 ">
+            className="flex items-center justify-around w-full p-6 mb-8 gap-8 "
+          >
             <div className="flex rounded-2xl bg-red-400 p-[.2rem] px-[1rem] gap-2 justify-between cursor-pointer hover:scale-105 ease-in duration-300">
               <h3 className="p-[2px]">name</h3>
             </div>
@@ -40,10 +42,12 @@ const Projects = () => {
 
       {/* RIGHT SECTION */}
       <section className=" xl:flex-[50%] flex items-center  justify-center p-10 px-40">
-        <img
+        <Image
           className="w-full h-[400px] object-fill rounded-xl cursor-pointer hover:scale-105 ease-in duration-300"
-          src="https://source.unsplash.com/800x400/?abstract"
-          alt="project"
+          src="/800x400.jpg"
+          width={800}
+          height={400}
+          alt="Picture of the author"
         />
       </section>
     </div>

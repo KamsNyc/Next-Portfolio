@@ -46,9 +46,9 @@ const home = () => {
 
       {/* PROJECTS SECTION */}
 
-      {/* <section>
+      <section>
         <Projects />
-      </section> */}
+      </section>
     </main>
   );
 };
