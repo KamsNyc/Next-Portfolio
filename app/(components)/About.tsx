@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="w-full h-[600px] lg:flex">
+    <section className="w-full h-full md:h-[600px] lg:flex">
       {/* LEFT SIDE  */}
       <section className="w-full flex items-center justify-center text-center">
         <div id="wrapper">
