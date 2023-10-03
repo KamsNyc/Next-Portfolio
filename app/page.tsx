@@ -1,8 +1,6 @@
 import React from "react";
 import GlobeImg from "./(components)/GlobeImg";
 import Hero from "./(components)/Hero";
-import Projects from "./(components)/Projects";
-import About from "./(components)/About";
 import BlurCircle from "./(components)/BlurCircle";
 
 const Home = () => {
@@ -28,8 +26,8 @@ const Home = () => {
       <section className="w-full flex flex-col items-center justify-center text-center md:text-start">
         <div className="mx-[10px] md:mx-[120px] xl:mx-[200px] 2xl:mx-[320px] h-[800px] lg:flex items-center justify-center gap-24">
           <h1 className="py-8 text-main">WHO</h1>
-          <p className=" text-3xl lg:text-4xl tracking-tightest p-0 lg:pr-10">
-            I'm Kamel, a web developer based in Queens, NYC. I'm all about user-friendly interfaces and full-stack websites. I thrive on learning and embrace new challenges in web development, UI/UX design, and tech collaborations. Off the screen, I'm on the basketball court, staying active, and exploring creative opportunities.
+          <p className="p-regular text-3xl lg:text-4xl tracking-tightest p-0 lg:pr-10">
+            I&apos;m Kamel, a web developer based in Queens, NYC. I&apos;m all about user-friendly interfaces and full-stack websites. I thrive on learning and embrace new challenges in web development, UI/UX design, and tech collaborations. Off the screen, I&apos;m on the basketball court, staying active, and exploring creative opportunities.
           </p>
         </div>
       </section>

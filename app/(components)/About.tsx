@@ -9,7 +9,6 @@ const About = () => {
         <div id="wrapper">
           <h1 className="h-regular tracking-normal pb-2 text-center">Hello</h1>
           <p className="p-medium py-2 text-lg text-left pl-10">
-            {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo at
             dicta molestias, dolores ipsam praesentium architecto incidunt
             fugiat asperiores? Cum nemo aut nobis voluptatem adipisci quos
