@@ -16,7 +16,7 @@ const About = () => {
           </p>
 
           <button className="mt-10 w-[40%] text-center h-medium tracking-wide button-hover">
-            Let's Talk
+            Let&apos;s Talk
           </button>
         </div>
       </section>
@@ -24,7 +24,6 @@ const About = () => {
       {/* RIGHT SIDE */}
 
       <div className="w-full flex  items-top justify-center py-20 object-contain">
-        
         <Image className="rounded-2xl"
           src="/200x400.jpg"
           width={400}
